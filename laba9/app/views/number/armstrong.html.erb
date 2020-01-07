@@ -1,5 +1,7 @@
 <p>Результат:</p>
-<% unless @result.nil? || @result.empty? %> 
+<% unless @result.nil? || @result.empty? %>
+  <p>Количество чисел:</p>
+  <%= @result.size %>
   <table>
     <th>Числа Армстронга</th>
     <% @result.each do |num| %>

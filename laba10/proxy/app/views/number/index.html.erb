@@ -1,0 +1,6 @@
+<p>Введите диапазон n:</p>
+<%= form_tag find_path, method: 'get' do %>
+<%= text_field_tag :n %>
+<%= select_tag 'handling', options_for_select(['Клиент', 'Сервер', 'Не обрабатывать']) %></br></br>
+<%= submit_tag 'Найти' %>
+<% end %>

@@ -1,0 +1,14 @@
+<p>Результат:</p>
+<% unless @result.nil? || @result.empty? %> 
+  <table>
+    <th>Числа Армстронга</th>
+    <% @result.each do |num| %>
+      <tr>
+        <td><%= num %></td>
+      </tr>
+    <% end %>
+  </table>
+<% else %>
+  <p>Чисел Армстронга не найдено. </p>
+<% end %>
+<%= link_to 'Вычислить повторно', root_path %>
