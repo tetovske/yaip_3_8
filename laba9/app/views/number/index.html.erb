@@ -1,0 +1,6 @@
+<p>Введите диапазон n:</p>
+<%= form_with url: find_path, method: 'get' do %>
+<%= text_field_tag :n, '', id: 'input' %>
+<%= submit_tag 'Найти', id: 'submit-but' %>
+<% end %>
+<div id="output"></div>
