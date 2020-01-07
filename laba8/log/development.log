@@ -744,3 +744,5 @@ puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
 puma (4.3.1) lib/puma/server.rb:472:in `process_client'
 puma (4.3.1) lib/puma/server.rb:328:in `block in run'
 puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)

@@ -1268,3 +1268,5 @@ Processing by NumberController#armstrong as JS
 Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 15813)
 
 
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)

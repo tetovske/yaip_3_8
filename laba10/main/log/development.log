@@ -1,0 +1,1887 @@
+Started GET "/" for ::1 at 2020-01-07 16:38:41 +0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 29.8ms | Allocations: 650)
+Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:01:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 3882)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms | Allocations: 5008)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:02:16 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 3586)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5415)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:02:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.1ms | Allocations: 198)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 1212)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:03:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1001)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2076)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_tag find_path, method: 'get' %>
+<%= text_field_tag :n %>
+<%= submit_tag 'Найти' %>
+<% end %>
+):
+1:    <%= form_tag find_path, method: 'get' %>
+2:    <%= text_field_tag :n %>
+3:    <%= submit_tag 'Найти' %>
+4:    <% end %>
+  
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:03:59 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1034)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2117)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_tag(find_path, method: 'get') %>
+<%= text_field_tag :n %>
+<%= submit_tag 'Найти' %>
+<% end %>
+):
+1:    <%= form_tag(find_path, method: 'get') %>
+2:    <%= text_field_tag :n %>
+3:    <%= submit_tag 'Найти' %>
+4:    <% end %>
+  
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2020-01-07 19:04:36 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 311)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tetovske/YAIP/aleksey/laba8/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.5
+Time: 1552ms
+Built at: 07.01.2020 19:04:40
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3838ms (Views: 3837.6ms | ActiveRecord: 0.0ms | Allocations: 18885)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:04:45 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1493)
+
+
+  
+NoMethodError (undefined method `-' for "3":String
+Did you mean?  -@):
+  
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 19461)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:05:20 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3916)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:21 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 19106)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:41 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 596ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2073805)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:11:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 592ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2074934)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:12:35 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 592ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2074948)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:12:50 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 583ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2074951)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:13:09 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 588ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2074940)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:15:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 593ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2074946)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:16:30 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 611ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 2080809)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:16:51 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 603ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2081065)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:01 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 593ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2081316)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:25 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 597ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 2081313)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:38 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 608ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 2082175)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:18:58 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5079)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 203)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 605ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2074199)
+
+
+Started GET "/number/find?n=1&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:05 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"1", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3957)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:11 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5100)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:15 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 19150)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:19 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.5ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 20279)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5101)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:34 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 6222)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:46 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6219)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:54 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 5106)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:56 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 19153)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:21:31 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.5ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 20339)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:21:33 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4243)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:21:35 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 19195)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:21:36 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3951)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:27:36 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:14:in `select'
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:27:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 554)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:14:in `select'
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:43:38 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:15:in `select'
+app/controllers/number_controller.rb:15:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:16 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:18 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3958)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:19 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3875)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:20 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3951)
+
+
+Started GET "/number/find?n=s&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:22 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"s", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3878)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:23 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3947)
+
+
+Started GET "/number/find?n=-999&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:26 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"-999", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3877)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:29 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5145)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:30 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:51 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5143)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:53 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:55 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 19189)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:56 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=1&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:58 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"1", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4000)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:59 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3877)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:01 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=c&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:03 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"c", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3882)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:03 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:05 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 5146)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:05 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=23&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:07 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"23", "commit"=>"Найти"}
+Started GET "/" for ::1 at 2020-01-07 19:46:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8514ms (Views: 8512.9ms | ActiveRecord: 0.0ms | Allocations: 34666775)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:36 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8310ms (Views: 8309.8ms | ActiveRecord: 0.0ms | Allocations: 33222473)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-07 19:47:56 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 11505)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 19:48:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 274)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 19559)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 19:48:24 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 27079)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (140.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (121.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-07 16:52:25.678369"], ["updated_at", "2020-01-07 16:52:25.678369"]]
+  [1m[35m (77.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.css-6e68fea937c9c3e7091f6c9303592c1419c8addf4c03a74bbe22aba4e8e1fa00.map"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 20:09:44 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 19393)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.css-6e68fea937c9c3e7091f6c9303592c1419c8addf4c03a74bbe22aba4e8e1fa00.map"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 22:56:36 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 0.0ms | Allocations: 13165)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 22:56:50 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 274)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 19610)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 22:56:58 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 90ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 20716)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 22:57:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 16247)
+
+
+  
+ActionController::RespondToMismatchError (respond_to was called multiple times and matched with conflicting formats in this action. Please note that you may only call respond_to and match on a single format per action.):
+  
+app/controllers/number_controller.rb:10:in `armstrong'
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 22:58:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 11ms (ActiveRecord: 0.0ms | Allocations: 15899)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 22:58:07 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15927)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-07 22:58:13 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 15901)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-07 22:58:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15945)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 22:58:36 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 15890)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 22:59:00 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15952)
+
+
+Started GET "/number/find.?n=3" for ::1 at 2020-01-07 22:59:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/number/find."):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 22:59:27 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 61)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 19429)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 22:59:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms | Allocations: 15864)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 22:59:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 17215)
+
+
+  
+ActionView::MissingTemplate (Missing template number/armstrong, application/armstrong with {:locale=>[:en], :formats=>[:rss], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/tetovske/YAIP/aleksey/laba10/main/app/views"
+  * "/home/tetovske/.rvm/gems/ruby-2.6.3/gems/actiontext-6.0.2.1/app/views"
+  * "/home/tetovske/.rvm/gems/ruby-2.6.3/gems/actionmailbox-6.0.2.1/app/views"
+):
+  
+app/controllers/number_controller.rb:12:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:05:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15946)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:05:55 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15945)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:25:19 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 61)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 19288)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:25:53 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 19161)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:02 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:03 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:04 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 19160)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:04 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:04 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:05 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 19160)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:05 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:06 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:27 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 19160)
+
+
+Started GET "/number/find?n=3" for ::1 at 2020-01-07 23:26:34 +0300
+Processing by NumberController#armstrong as */*
+  Parameters: {"n"=>"3"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 19156)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:26:54 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15849)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:36:29 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15850)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:45:23 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:45:23 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:45:24 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/" for ::1 at 2020-01-07 23:45:33 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5056)
+
+
+Started GET "/number/find?n=4&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 23:45:36 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"4", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.5ms | Allocations: 284)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 184318)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:48:31 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:48:36 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:48:42 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:48:54 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:52:34 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:52:36 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:52:55 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:53:18 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:53:51 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:55:26 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 51ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:56:24 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 85ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180503)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:56:48 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 58ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:57:25 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:57:26 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:57:27 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:57:28 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 49ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-07 23:57:43 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 18ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15854)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-07 23:58:22 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 55ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=2" for ::1 at 2020-01-07 23:58:36 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"2"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1580)
+
+
+Started GET "/number/find.rss?n=2" for ::1 at 2020-01-08 00:08:14 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"2"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:08:18 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:08:34 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15854)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:08:34 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:08:35 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:09:52 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:10:12 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15854)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:10:23 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:10:38 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:11:09 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:11:45 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15854)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:18:17 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:23:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:24:08 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:30:17 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15854)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:30:19 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=3" for ::1 at 2020-01-08 00:31:47 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15843)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:31:52 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:32:08 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 72ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:32:37 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:32:50 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:32:58 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 62ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.rss?n=4" for ::1 at 2020-01-08 00:33:02 +0300
+Processing by NumberController#armstrong as RSS
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180498)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:33:40 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 64ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:33:43 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 53ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:33:45 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 58ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:37:40 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:37:40 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 952)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:37:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:38:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:38:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 944)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:38:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 52ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180500)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:39:07 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 50ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:39:07 +0300
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:39:07 +0300
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:39:07 +0300
+Processing by NumberController#armstrong as XML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:39:08 +0300
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15850)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:39:08 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 944)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:44:28 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15847)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:44:28 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:44:29 +0300
+Processing by NumberController#armstrong as XML
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:44:29 +0300
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 951)
+
+
+Processing by NumberController#armstrong as XML
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 952)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:44:57 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:44:57 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:44:57 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:44:57 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:35 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:35 +0300
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:35 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:45:35 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:49 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15850)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:49 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 14ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:45:49 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:45:49 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:46:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15847)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:46:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15850)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:46:14 +0300
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:46:14 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 943)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:15 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15852)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:15 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:15 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:15 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15948)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:21 +0300
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:21 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15863)
+
+
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:21 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:47:21 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:56:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 57ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180500)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:56:30 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 59ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180494)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:56:54 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 64ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 181602)
+
+
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:56:59 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 54ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180496)
+
+
+Started GET "/number/find.xml?n=" for ::1 at 2020-01-08 00:57:04 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 942)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=4" for ::1 at 2020-01-08 00:57:11 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"4"}
+Completed 200 OK in 56ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 180504)
+
+
+Started GET "/number/find.xml?n=1" for ::1 at 2020-01-08 00:57:15 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 920)
+
+
+Started GET "/number/find.xml?n=0" for ::1 at 2020-01-08 00:57:18 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 949)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=0" for ::1 at 2020-01-08 00:58:36 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 949)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 00:58:41 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15845)
+
+
+Started GET "/number/find.xml?n=0" for ::1 at 2020-01-08 00:58:44 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 942)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/" for ::1 at 2020-01-08 00:59:09 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 7184)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 00:59:12 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 265)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 5556)
+
+
+Started GET "/" for ::1 at 2020-01-08 00:59:16 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 129)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3963)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 00:59:20 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 19244)
+
+
+Started GET "/number/find.xml?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 00:59:25 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15940)
+
+
+Started GET "/number/find.xml?n=0&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 00:59:29 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1038)
+
+
+  
+NoMethodError (undefined method `to_xml' for nil:NilClass
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=0&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 01:00:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1536)
+
+
+  
+NoMethodError (undefined method `to_xml' for "nil":String
+Did you mean?  to_yaml):
+  
+app/controllers/number_controller.rb:11:in `block (2 levels) in armstrong'
+app/controllers/number_controller.rb:9:in `armstrong'
+Started GET "/number/find.xml?n=0&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-08 01:02:12 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0", "commit"=>"Найти"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 421)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 01:02:25 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15841)
+
+
+Started GET "/number/find.xml?n=0" for ::1 at 2020-01-08 01:02:28 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 310)
+
+
+Started GET "/number/find.xml?n=0" for ::1 at 2020-01-08 01:02:37 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"0"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 310)
+
+
+Started GET "/number/find.xml?n=5" for ::1 at 2020-01-08 01:02:41 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"5"}
+Completed 200 OK in 585ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2070495)
+
+
+Started GET "/number/find.xml?n=5" for ::1 at 2020-01-08 01:02:46 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"5"}
+Completed 200 OK in 576ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2070495)
+
+
+Started GET "/number/find.xml?n=5" for ::1 at 2020-01-08 01:02:50 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"5"}
+Completed 200 OK in 571ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2070494)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 01:03:37 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15850)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 01:03:37 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15839)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 01:03:37 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15839)
+
+
+Started GET "/number/find.xml?n=3" for ::1 at 2020-01-08 01:03:37 +0300
+Processing by NumberController#armstrong as XML
+  Parameters: {"n"=>"3"}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 15839)
+
+
