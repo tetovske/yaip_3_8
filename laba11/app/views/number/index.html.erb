@@ -1,0 +1,7 @@
+<p>Введите диапазон n:</p>
+<%= form_tag find_path, method: 'get' do %>
+<%= text_field_tag :n %>
+<%= submit_tag 'Найти' %>
+<% end %>
+<%= link_to 'Все записи БД', all_records_path %> | 
+<%= link_to 'Последняя запись БД', last_record_path %>
