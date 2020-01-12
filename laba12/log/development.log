@@ -1,0 +1,2740 @@
+Started GET "/" for ::1 at 2020-01-07 16:38:41 +0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 29.8ms | Allocations: 650)
+Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:01:28 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 3882)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms | Allocations: 5008)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:02:16 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 3586)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5415)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:02:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.1ms | Allocations: 198)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 1212)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:03:25 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1001)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2076)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_tag find_path, method: 'get' %>
+<%= text_field_tag :n %>
+<%= submit_tag 'Найти' %>
+<% end %>
+):
+1:    <%= form_tag find_path, method: 'get' %>
+2:    <%= text_field_tag :n %>
+3:    <%= submit_tag 'Найти' %>
+4:    <% end %>
+  
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-07 19:03:59 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1034)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2117)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_tag(find_path, method: 'get') %>
+<%= text_field_tag :n %>
+<%= submit_tag 'Найти' %>
+<% end %>
+):
+1:    <%= form_tag(find_path, method: 'get') %>
+2:    <%= text_field_tag :n %>
+3:    <%= submit_tag 'Найти' %>
+4:    <% end %>
+  
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+app/views/number/index.html.erb:6: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2020-01-07 19:04:36 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 311)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/tetovske/YAIP/aleksey/laba8/public/packs
+[Webpacker] Hash: 53154d7baad00c6a1252
+Version: webpack 4.41.5
+Time: 1552ms
+Built at: 07.01.2020 19:04:40
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3838ms (Views: 3837.6ms | ActiveRecord: 0.0ms | Allocations: 18885)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:04:45 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1493)
+
+
+  
+NoMethodError (undefined method `-' for "3":String
+Did you mean?  -@):
+  
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 19461)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:05:20 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 136)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3916)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:21 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 19106)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:05:41 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 596ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2073805)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:11:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 199)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 592ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2074934)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:12:35 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 592ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2074948)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:12:50 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 583ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2074951)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:13:09 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 588ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2074940)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:15:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 593ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2074946)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:16:30 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 611ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 2080809)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:16:51 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 603ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2081065)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:01 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 593ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 2081316)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:25 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 597ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 2081313)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:17:38 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 608ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 2082175)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:18:58 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 286)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5079)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 203)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 605ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2074199)
+
+
+Started GET "/number/find?n=1&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:05 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"1", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3957)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:11 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5100)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:19:15 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 19150)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:19 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.5ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 20279)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 5101)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:34 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 6222)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:46 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.4ms | Allocations: 192)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6219)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:54 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 5106)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:20:56 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 19153)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:21:31 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.5ms | Allocations: 270)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 20339)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:21:33 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 280)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4243)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:21:35 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 19195)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:21:36 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3951)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:27:36 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:14:in `select'
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:27:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 554)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:14:in `select'
+app/controllers/number_controller.rb:14:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:43:38 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+TypeError (can't iterate from Rational):
+  
+app/controllers/number_controller.rb:15:in `select'
+app/controllers/number_controller.rb:15:in `find_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=sd&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:16 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"sd", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4006)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:18 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 131)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3958)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:19 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3875)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:20 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3951)
+
+
+Started GET "/number/find?n=s&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:22 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"s", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3878)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:23 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3947)
+
+
+Started GET "/number/find?n=-999&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:26 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"-999", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3877)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:29 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 5145)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:30 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:51 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5143)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:53 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:55 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 19189)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:56 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=1&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:45:58 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"1", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 65)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4000)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:45:59 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3877)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:01 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=c&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:03 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"c", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 3882)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:03 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:05 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 5146)
+
+
+Started GET "/" for ::1 at 2020-01-07 19:46:05 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 3946)
+
+
+Started GET "/number/find?n=23&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:07 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"23", "commit"=>"Найти"}
+Started GET "/" for ::1 at 2020-01-07 19:46:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8514ms (Views: 8512.9ms | ActiveRecord: 0.0ms | Allocations: 34666775)
+
+
+Started GET "/number/find?n=&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-07 19:46:36 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8310ms (Views: 8309.8ms | ActiveRecord: 0.0ms | Allocations: 33222473)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-07 19:47:56 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 32.6ms | ActiveRecord: 0.0ms | Allocations: 11505)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 19:48:00 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 274)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 19559)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 19:48:24 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 55)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 27079)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (140.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (121.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-07 16:52:25.678369"], ["updated_at", "2020-01-07 16:52:25.678369"]]
+  [1m[35m (77.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.css-6e68fea937c9c3e7091f6c9303592c1419c8addf4c03a74bbe22aba4e8e1fa00.map"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for 127.0.0.1 at 2020-01-07 20:09:44 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.2ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 19393)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.css-6e68fea937c9c3e7091f6c9303592c1419c8addf4c03a74bbe22aba4e8e1fa00.map"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:64:in `block (3 levels) in broadcast'
+activesupport (6.0.2.1) lib/active_support/logger_silence.rb:36:in `silence'
+activesupport (6.0.2.1) lib/active_support/logger.rb:62:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 16:25:19 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 463)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 16401)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 16:25:26 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1544)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 16:25:32 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+Completed 200 OK in 560ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2070293)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 16:25:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+Completed 200 OK in 534ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2070459)
+
+
+Started GET "/" for ::1 at 2020-01-12 16:28:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4083)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCalculations (20200112133731)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "calculations" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "request" varchar, "response" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200112133731"]]
+  [1m[35m (123.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-01-12 17:07:05 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 443)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 8021)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:07:09 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms | Allocations: 2487)
+
+
+  
+TypeError (can't cast Hash):
+  
+app/models/calculation.rb:6:in `find_response'
+app/controllers/number_controller.rb:14:in `get_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:07:49 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms | Allocations: 2174)
+
+
+  
+TypeError (can't cast Hash):
+  
+app/models/calculation.rb:6:in `find_response'
+app/controllers/number_controller.rb:14:in `get_armstrong'
+app/controllers/number_controller.rb:8:in `armstrong'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:10:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "5"], ["response", "[54748,92727,93084]"], ["created_at", "2020-01-12 14:10:35.468845"], ["updated_at", "2020-01-12 14:10:35.468845"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (132.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+Completed 200 OK in 725ms (Views: 0.2ms | ActiveRecord: 133.6ms | Allocations: 2081118)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:10:56 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 2125)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:10:58 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 2120)
+
+
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:11:11 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 2132)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+Started GET "/number/find?n=4&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:11:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"4", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "4"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "4"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "4"], ["response", "[1634,8208,9474]"], ["created_at", "2020-01-12 14:11:23.952808"], ["updated_at", "2020-01-12 14:11:23.952808"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (147.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "4"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "4"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+Completed 200 OK in 210ms (Views: 0.1ms | ActiveRecord: 148.3ms | Allocations: 186631)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+Started GET "/number/find?n=7&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:11:44 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"7", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "7"], ["response", "[1741725,4210818,9800817,9926315]"], ["created_at", "2020-01-12 14:12:53.427938"], ["updated_at", "2020-01-12 14:12:53.427938"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (617.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "7"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "7"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+Completed 200 OK in 69308ms (Views: 0.1ms | ActiveRecord: 618.0ms | Allocations: 261006893)
+
+
+Started GET "/number/find?n=7&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:13:01 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"7", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 2121)
+
+
+Started GET "/number/find?n=7&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:13:03 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"7", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "7"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 2125)
+
+
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 17:24:05 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 375)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 5125)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:24:06 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 352ms (Views: 345.1ms | ActiveRecord: 0.2ms | Allocations: 7478)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:24:07 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1381)
+
+
+Started GET "/sequence/last_record" for ::1 at 2020-01-12 17:24:10 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/sequence/last_record"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/number/last" for ::1 at 2020-01-12 17:24:19 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 1018)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 17:24:19 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 1021)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:24:29 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 180)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3997)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:24:35 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1390)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:24:35 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1382)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:24:42 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 3989)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:24:48 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 2230)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 17:24:50 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 1016)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 17:24:50 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 1022)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:27:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tetovske/.rvm/gems/ruby-2.6.3/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.0ms | Allocations: 368)
+Completed 200 OK in 50ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 1508)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 17:27:22 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 365)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5130)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:27:26 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 5897)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/number/last" for ::1 at 2020-01-12 17:27:28 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 1035)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 17:27:28 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 1018)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 17:39:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4122)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:40:02 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 5575)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:40:26 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 1394)
+
+
+Started GET "/number/records" for ::1 at 2020-01-12 17:40:26 +0300
+Processing by NumberController#all_records as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 1378)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:40:28 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 3990)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" ORDER BY "calculations"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCalculation Destroy (0.2ms)[0m  [1m[31mDELETE FROM "calculations" WHERE "calculations"."id" = ?[0m  [["id", 1]]
+  [1m[35m (126.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:41:22 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "5"], ["response", "[54748,92727,93084]"], ["created_at", "2020-01-12 14:41:22.873344"], ["updated_at", "2020-01-12 14:41:22.873344"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (117.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+Completed 200 OK in 736ms (Views: 0.1ms | ActiveRecord: 118.4ms | Allocations: 2076691)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCalculation Destroy (97.4ms)[0m  [1m[31mDELETE FROM "calculations"[0m
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 17:58:37 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 527)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 9844)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:58:44 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "5"], ["response", "[54748,92727,93084]"], ["created_at", "2020-01-12 14:58:44.620811"], ["updated_at", "2020-01-12 14:58:44.620811"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (88.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 5], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "5"], ["id", 5], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 295)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 680ms (Views: 5.6ms | ActiveRecord: 90.4ms | Allocations: 2085398)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:58:50 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 176)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4000)
+
+
+Started GET "/number/find?n=2&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 17:58:54 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"2", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "2"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "2"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.2ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "2"], ["response", "[]"], ["created_at", "2020-01-12 14:58:54.807570"], ["updated_at", "2020-01-12 14:58:54.807570"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (179.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "2"], ["id", 6], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "2"], ["id", 6], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 48)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 194ms (Views: 4.1ms | ActiveRecord: 180.0ms | Allocations: 11593)
+
+
+Started GET "/" for ::1 at 2020-01-12 17:58:56 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 173)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 3994)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 18:00:42 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 4127)
+
+
+Started GET "/number/last" for ::1 at 2020-01-12 18:00:42 +0300
+Processing by NumberController#last_record as HTML
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations"[0m
+  ↳ app/models/calculation.rb:18:in `map'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 1001)
+
+
+Started GET "/" for ::1 at 2020-01-12 18:00:49 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3996)
+
+
+Started GET "/number/find?n=3&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:00:56 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3", "commit"=>"Найти"}
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "3"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "3"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Create (0.3ms)[0m  [1m[32mINSERT INTO "calculations" ("request", "response", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["request", "3"], ["response", "[153,370,371,407]"], ["created_at", "2020-01-12 15:00:56.365862"], ["updated_at", "2020-01-12 15:00:56.365862"]]
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[35m (164.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/calculation.rb:13:in `add_response'
+  [1m[36mCalculation Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "3"], ["id", 7], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  [1m[36mCACHE Calculation Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "calculations" WHERE "calculations"."request" = ? AND "calculations"."id" != ? LIMIT ?[0m  [["request", "3"], ["id", 7], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:14:in `add_response'
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 58)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 187ms (Views: 4.3ms | ActiveRecord: 165.0ms | Allocations: 25572)
+
+
+Started GET "/" for ::1 at 2020-01-12 18:01:05 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3996)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/" for ::1 at 2020-01-12 18:05:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.2.1) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.2.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200112150433)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200112150433"]]
+  [1m[35m (128.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-01-12 18:05:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 366)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 16683)
+
+
+Started GET "/" for ::1 at 2020-01-12 18:06:16 +0300
+Processing by NumberController#index as HTML
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 179)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 12210)
+
+
+Started GET "/user/new" for ::1 at 2020-01-12 18:06:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/user/new"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.8) lib/rack/method_override.rb:22:in `call'
+rack (2.0.8) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.8) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users/new" for ::1 at 2020-01-12 18:06:28 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 62.5ms | Allocations: 3030)
+  Rendered users/new.html.erb within layouts/application (Duration: 63.2ms | Allocations: 3383)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 81ms (Views: 67.8ms | ActiveRecord: 0.6ms | Allocations: 11484)
+
+
+Started POST "/users" for ::1 at 2020-01-12 18:06:36 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"UL5oA5HSvvPYZshTGTog8v/Bw3hpkxOexCeDtIwoIkeEyy0Wv+D00WOkqNzTHI1Rl+jlCWXAEPME5A8Jus5VDg==", "user"=>{"email"=>"tetovske@yandex.ru", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "tetovske@yandex.ru"], ["password", "123456"], ["created_at", "2020-01-12 15:06:36.975146"], ["updated_at", "2020-01-12 15:06:36.975146"]]
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+  [1m[35m (129.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 136ms (ActiveRecord: 129.9ms | Allocations: 3694)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 18:06:37 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 282)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 4972)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-01-12 18:06:39 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 797)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 5593)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 18:06:41 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:67:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 4483)
+
+
+Started GET "/users" for ::1 at 2020-01-12 18:06:42 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1033)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 5061)
+
+
+Started GET "/users" for ::1 at 2020-01-12 18:08:46 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4066)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.7ms | Allocations: 8462)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 18:08:48 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.4ms | Allocations: 727)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 813)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4708)
+
+
+Started POST "/users" for ::1 at 2020-01-12 18:08:53 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"2oB+mOG6svkcnQiHy7ecy3+emCsSFX68D98qUZhHV8W0bcHb68Npd3B8D9R91r1I7Sh1Yo6ILIt3s1gp3D4koA==", "user"=>{"email"=>"asdasdasd", "password"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:29:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "asdasdasd"], ["password", "123"], ["created_at", "2020-01-12 15:08:53.841740"], ["updated_at", "2020-01-12 15:08:53.841740"]]
+  ↳ app/controllers/users_controller.rb:29:in `create'
+  [1m[35m (149.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:29:in `create'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 161ms (ActiveRecord: 150.1ms | Allocations: 3599)
+
+
+Started GET "/users/2" for ::1 at 2020-01-12 18:08:54 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:59:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.2ms | Allocations: 4612)
+
+
+Started GET "/users/2" for ::1 at 2020-01-12 18:11:51 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 4.1ms | ActiveRecord: 0.6ms | Allocations: 8357)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-01-12 18:11:53 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 823)
+  Rendered users/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 940)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 5326)
+
+
+Started PATCH "/users/2" for ::1 at 2020-01-12 18:11:57 +0300
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"3iYRrNaC2trvqYvW9SpxkS3ZtnZ5CABJViY9n+LED9wJ0dKwnGNNOfy5TIJ8vfTpwVYmuwdeScU1hBAUegc66w==", "user"=>{"email"=>"asdasdasd", "password"=>"[FILTERED]"}, "commit"=>"Update User", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `update'
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "password" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["password", "1234"], ["updated_at", "2020-01-12 15:11:57.687610"], ["id", 2]]
+  ↳ app/controllers/users_controller.rb:40:in `update'
+  [1m[35m (176.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:40:in `update'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 194ms (ActiveRecord: 177.5ms | Allocations: 4133)
+
+
+Started GET "/users/2" for ::1 at 2020-01-12 18:11:57 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 96)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.1ms | Allocations: 4500)
+
+
+Started GET "/users/2" for ::1 at 2020-01-12 18:14:10 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 283)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.1ms | Allocations: 5612)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-01-12 18:14:13 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 1100)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 6022)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-01-12 18:14:32 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.8ms | Allocations: 1100)
+  Rendered users/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1494)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.1ms | Allocations: 6808)
+
+
+Started GET "/users/2/edit" for ::1 at 2020-01-12 18:15:30 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.1ms | Allocations: 1103)
+  Rendered users/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1496)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.1ms | Allocations: 6811)
+
+
+Started PATCH "/users/2" for ::1 at 2020-01-12 18:15:35 +0300
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"mxoAfVtTEAyptJOhVGTgzKCtcSy1+k/m9EgH7KsSKrBPb0VodWFaLhJ28y6eQk1vyIRXXbmpTIs0i4tRnfRd+Q==", "user"=>{"email"=>"asdasdasd", "password"=>"[FILTERED]"}, "commit"=>"Создать", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1067)
+
+
+Started GET "/users/2" for ::1 at 2020-01-12 18:15:35 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 282)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4829)
+
+
+Started GET "/users" for ::1 at 2020-01-12 18:15:37 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1156)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 5190)
+
+
+Started DELETE "/users/2" for ::1 at 2020-01-12 18:15:42 +0300
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2FG0Ylo+95ZyfI5wrnhkG4u9EIE5PlDh+t7vGC+vpOQMJPF3dAy9tMm+7v9kXsm445Q28DVtU4w6HWOlGUnTrQ==", "id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:50:in `destroy'
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/users_controller.rb:50:in `destroy'
+  [1m[35m (110.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:50:in `destroy'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 115ms (ActiveRecord: 110.5ms | Allocations: 3629)
+
+
+Started GET "/users" for ::1 at 2020-01-12 18:15:42 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 743)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 4646)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 18:15:44 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 654)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 859)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 4895)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 18:16:10 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 985)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1332)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6160)
+
+
+Started GET "/users" for ::1 at 2020-01-12 18:16:14 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:15
+  Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1015)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.1ms | Allocations: 5053)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 18:17:47 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 649)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 735)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 4628)
+
+
+Started POST "/users" for ::1 at 2020-01-12 18:17:52 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Z/tpRNdYLDWhJ+EtN+HPx6wQYWt1Z3s+oJzzJ3YxFBIJFtYH3SH3u83G5n6BgO5EPqaMIun6KQnY8IFfMkhndw==", "user"=>{"email"=>"фывфывфыв", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "фывфывфыв"], ["password", "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"], ["created_at", "2020-01-12 15:17:52.129428"], ["updated_at", "2020-01-12 15:17:52.129428"]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (199.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 204ms (ActiveRecord: 199.4ms | Allocations: 3569)
+
+
+Started GET "/users/3" for ::1 at 2020-01-12 18:17:52 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 275)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4819)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 1]]
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/users/3" for ::1 at 2020-01-12 18:30:53 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 395)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 18:30:53 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 520)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 15040)
+
+
+DEPRECATION WARNING: Using `bin/rake routes` is deprecated and will be removed in Rails 6.1. Use `bin/rails routes` instead.
+ (called from load at /home/tetovske/.rvm/gems/ruby-2.6.3/bin/rake:23)
+Started GET "/users/new" for ::1 at 2020-01-12 18:30:58 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 3.3ms | Allocations: 1050)
+  Rendered users/new.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1396)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 9135)
+
+
+Started POST "/users" for ::1 at 2020-01-12 18:31:10 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"wcqH6LJPaL6RvlOOxEI9+9srAbEWL5Yp2xx6YVF/1BOvJziruDazMP1fVN1yIxx4SZ3s+IqyxB6jcAgZFQandg==", "user"=>{"email"=>"tet@ya.ru", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "tet@ya.ru"], ["password", "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"], ["created_at", "2020-01-12 15:31:10.016788"], ["updated_at", "2020-01-12 15:31:10.016788"]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (142.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+Redirected to http://localhost:3000/users/4
+Completed 302 Found in 154ms (ActiveRecord: 144.1ms | Allocations: 3534)
+
+
+Started GET "/users/4" for ::1 at 2020-01-12 18:31:10 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 325)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 18:31:10 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 4255)
+
+
+Started GET "/auth?login=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:31:19 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"login"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2780)
+
+
+  
+NoMethodError (undefined method `authenticate' for #<Class:0x0000562b93054258>):
+  
+app/controllers/session_controller.rb:5:in `sign_in'
+Started GET "/signin" for ::1 at 2020-01-12 18:32:34 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 4433)
+
+
+Started GET "/auth?login=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:32:37 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"login"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."login" = ? LIMIT ?[0m  [["login", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms | Allocations: 2592)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.login):
+  
+app/models/user.rb:10:in `auth'
+app/controllers/session_controller.rb:5:in `sign_in'
+Started GET "/auth?login=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:33:13 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#sign_in as HTML
+  Parameters: {"login"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms | Allocations: 1939)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 18:33:13 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 505)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 5400)
+
+
+Started GET "/auth?email=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:33:24 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.6ms | Allocations: 6656)
+
+
+  
+NameError (undefined local variable or method `password_digest' for #<User:0x0000562b92f90e98>
+Did you mean?  password):
+  
+app/models/user.rb:5:in `check_pass?'
+app/models/user.rb:12:in `auth'
+app/controllers/session_controller.rb:5:in `sign_in'
+Started GET "/auth?email=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:33:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms | Allocations: 4722)
+
+
+Started GET "/" for ::1 at 2020-01-12 18:33:41 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms | Allocations: 2636)
+
+
+  
+NoMethodError (undefined method `login' for #<User:0x00007fe488509b68>):
+  
+app/controllers/application_controller.rb:15:in `authenticate'
+Started GET "/signin" for ::1 at 2020-01-12 18:33:56 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4431)
+
+
+Started GET "/auth?email=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 18:33:59 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms | Allocations: 4597)
+
+
+Started GET "/" for ::1 at 2020-01-12 18:33:59 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 371)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.1ms | Allocations: 5534)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:37:59 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 172)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.2ms | Allocations: 4659)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:38:54 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 401)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.1ms | Allocations: 5800)
+
+
+Started GET "/signout" for ::1 at 2020-01-12 19:38:56 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 827)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:38:56 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 503)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 5048)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:41:29 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 4240)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:42:56 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 508)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5392)
+
+
+Started GET "/auth?email=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:43:09 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms | Allocations: 839)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:43:09 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 394)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 5444)
+
+
+Started GET "/users" for ::1 at 2020-01-12 19:43:13 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.3ms | Allocations: 6412)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:43:17 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 277)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 5481)
+
+
+Started GET "/users/1/edit" for ::1 at 2020-01-12 19:43:25 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/edit.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.8ms | Allocations: 1038)
+  Rendered users/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1435)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 6540)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:43:49 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 272)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.2ms | Allocations: 6167)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:43:50 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.2ms | Allocations: 5059)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:43:51 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 5059)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:43:51 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 5053)
+
+
+Started GET "/users/1" for ::1 at 2020-01-12 19:44:27 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:57:in `set_user'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 5055)
+
+
+Started GET "/users" for ::1 at 2020-01-12 19:44:28 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.2ms | Allocations: 5850)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:44:30 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 50.8ms | Allocations: 3476)
+  Rendered users/new.html.erb within layouts/application (Duration: 51.6ms | Allocations: 3821)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms | Allocations: 7831)
+
+
+Started POST "/users" for ::1 at 2020-01-12 19:45:25 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Kf7InBF6baphTSanSE18mThYlbSYGLKkhZGQawIZjtpHE3ffGwO2JA2sIfT+LF0aqu54/QSF4JP9/eITRmD9vw==", "user"=>{"email"=>"tet@ya.ru", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 2.2ms | Allocations: 1154)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 9490)
+
+
+Started GET "/users" for ::1 at 2020-01-12 19:45:37 +0300
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:14
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1245)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.2ms | Allocations: 5846)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:45:42 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 394)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 5421)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:45:47 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mCalculation Load (0.1ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.6ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 4.9ms | ActiveRecord: 0.8ms | Allocations: 12401)
+
+
+Started GET "/signout" for ::1 at 2020-01-12 19:45:48 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 813)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:45:48 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 503)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 5024)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:45:49 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 4230)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:45:51 +0300
+Processing by NumberController#index as HTML
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 312)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:45:51 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4221)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:45:55 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.3ms | Allocations: 654)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 741)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4698)
+
+
+Started GET "/auth?email=tet%40ya.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:46:16 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tet@ya.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tet@ya.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms | Allocations: 812)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:46:16 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 4650)
+
+
+Started GET "/signout" for ::1 at 2020-01-12 19:46:25 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 817)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:46:25 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 4239)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:46:30 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 646)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 732)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 4688)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:47:08 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 138.3ms | Allocations: 74609)
+  Rendered users/new.html.erb within layouts/application (Duration: 139.0ms | Allocations: 74935)
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 0.0ms | Allocations: 76128)
+
+
+  
+ActionView::Template::Error (undefined method `password_field_tag' for #<ActionView::Helpers::FormBuilder:0x00007fe488f6b890>
+Did you mean?  password_field):
+    18: 
+    19:   <div class="field">
+    20:     <%= form.label 'Пароль' %>
+    21:     <%= form.password_field_tag :password %>
+    22:   </div>
+    23: 
+    24:   <div class="actions">
+  
+app/views/users/_form.html.erb:21
+app/views/users/_form.html.erb:1
+app/views/users/new.html.erb:3
+Started GET "/users/new" for ::1 at 2020-01-12 19:48:16 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.7ms | Allocations: 982)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1328)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6223)
+
+
+Started GET "/users" for ::1 at 2020-01-12 19:48:22 +0300
+Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:48:22 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 503)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5025)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:48:25 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.1ms | Allocations: 652)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 739)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 4696)
+
+
+Started POST "/users" for ::1 at 2020-01-12 19:48:32 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"8EqFYjU53F2tVb3KZmtdsp/VZVpoAs2j2bSGAC1KRtaepzohP0AH08G0upnQCnwxDWOIE/Sfn5Sh2PR4aTM1sw==", "user"=>{"email"=>"asdasd", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "asdasd"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "asdasd"], ["password", "a63ab36162a4f4ee6622ccd787b0a048c26b93acfc05c6b1843659b253c3c00b"], ["created_at", "2020-01-12 16:48:32.187662"], ["updated_at", "2020-01-12 16:48:32.187662"]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (180.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+Redirected to http://localhost:3000/users/5
+Completed 302 Found in 187ms (ActiveRecord: 181.6ms | Allocations: 4535)
+
+
+Started GET "/users/5" for ::1 at 2020-01-12 19:48:32 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 329)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:48:32 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 4245)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:48:36 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 644)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 4695)
+
+
+Started POST "/users" for ::1 at 2020-01-12 19:48:39 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"gV4YiZaOdNEQ7RZmeW6GbESFBf9TFo2aP8DBCOkvUEHvs6fKnPevX3wMETXPD6fv1jPots+L361HrLNwrVYjJA==", "user"=>{"email"=>"tetovske@yandex.ru", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tetovske@yandex.ru"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.4ms | Allocations: 793)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 879)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.3ms | Allocations: 7835)
+
+
+Started GET "/users" for ::1 at 2020-01-12 19:49:06 +0300
+Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 338)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:49:06 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 4243)
+
+
+Started GET "/auth?email=tetovske%40yandex.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:49:09 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tetovske@yandex.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tetovske@yandex.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 855)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:49:09 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 4233)
+
+
+Started GET "/auth?email=tetovske%40yandex.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:49:16 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tetovske@yandex.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tetovske@yandex.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 847)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:49:16 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 4239)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 19:49:17 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 644)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4695)
+
+
+Started POST "/users" for ::1 at 2020-01-12 19:49:21 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"4BY+fizuFvs/ILZLp0wpXwYV1wj/88NOWKY9BGw40aOO+4E9JpfNdVPBsRgRLQjclKM6QWNukXkgyk98KEGixg==", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", ""], ["password", "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"], ["created_at", "2020-01-12 16:49:21.956713"], ["updated_at", "2020-01-12 16:49:21.956713"]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (100.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+Redirected to http://localhost:3000/users/6
+Completed 302 Found in 106ms (ActiveRecord: 100.5ms | Allocations: 4588)
+
+
+Started GET "/users/6" for ::1 at 2020-01-12 19:49:22 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 19:49:22 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 4235)
+
+
+Started GET "/auth?email=&pass=&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 19:49:25 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"", "pass"=>"", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 830)
+
+
+Started GET "/" for ::1 at 2020-01-12 19:49:25 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 399)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.1ms | Allocations: 5447)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "test@email.com"], ["password", "1234"], ["created_at", "2020-01-12 17:03:53.472228"], ["updated_at", "2020-01-12 17:03:53.472228"]]
+  [1m[35m (90.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? AND "users"."id" != ? LIMIT ?[0m  [["email", "test@email.com"], ["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-01-12 20:04:41 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 4.2ms | ActiveRecord: 0.1ms | Allocations: 8316)
+
+
+Started GET "/signout" for ::1 at 2020-01-12 20:04:43 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 835)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:04:43 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 298)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4416)
+
+
+Started GET "/auth?email=test%40email.com&pass=1234&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 20:04:58 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"test@email.com", "pass"=>"1234", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms | Allocations: 956)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:04:58 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4238)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:13:23 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 4432)
+
+
+Started GET "/auth?email=test%40email.com&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 20:13:37 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"test@email.com", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "test@email.com"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 9ms (ActiveRecord: 0.2ms | Allocations: 4281)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:13:37 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4242)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 20:13:41 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.5ms | Allocations: 714)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 801)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 4991)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Destroy (81.3ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/signin" for ::1 at 2020-01-12 20:14:05 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4238)
+
+
+Started GET "/users/new" for ::1 at 2020-01-12 20:14:06 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 1.2ms | Allocations: 644)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 4699)
+
+
+Started POST "/users" for ::1 at 2020-01-12 20:14:08 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"cvtCZrZRSg0T7chkuQ6ecDl4RRCqDsWqF+XY63jtJWscFv0lvCiRg38MzzcPb7/zq86oWTaTl51viaqTPJRWDg==", "user"=>{"email"=>"tetovske@yandex.ru", "password"=>"[FILTERED]"}, "commit"=>"Создать"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tetovske@yandex.ru"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "tetovske@yandex.ru"], ["password", "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"], ["created_at", "2020-01-12 17:14:08.904018"], ["updated_at", "2020-01-12 17:14:08.904018"]]
+  ↳ app/controllers/users_controller.rb:30:in `create'
+  [1m[35m (205.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30:in `create'
+Redirected to http://localhost:3000/users/8
+Completed 302 Found in 212ms (ActiveRecord: 206.4ms | Allocations: 4599)
+
+
+Started GET "/users/8" for ::1 at 2020-01-12 20:14:09 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"8"}
+Redirected to http://localhost:3000/signin
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:14:09 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4242)
+
+
+Started GET "/auth?email=tetovske%40yandex.ru&pass=123456&commit=%D0%92%D0%BE%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 20:14:11 +0300
+Processing by SessionController#sign_in as HTML
+  Parameters: {"email"=>"tetovske@yandex.ru", "pass"=>"123456", "commit"=>"Войти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tetovske@yandex.ru"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:10:in `auth'
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 834)
+
+
+Started GET "/" for ::1 at 2020-01-12 20:14:11 +0300
+Processing by NumberController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 206)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 4913)
+
+
+Started GET "/number/find?n=5&commit=%D0%9D%D0%B0%D0%B9%D1%82%D0%B8" for ::1 at 2020-01-12 20:14:26 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"5", "commit"=>"Найти"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+  [1m[36mCalculation Load (0.2ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:6:in `find_response'
+  [1m[36mCACHE Calculation Load (0.0ms)[0m  [1m[34mSELECT "calculations".* FROM "calculations" WHERE "calculations"."request" = ? LIMIT ?[0m  [["request", "5"], ["LIMIT", 1]]
+  ↳ app/models/calculation.rb:8:in `find_response'
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.7ms | Allocations: 323)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 5.7ms | ActiveRecord: 0.3ms | Allocations: 9901)
+
+
+Started GET "/signout" for ::1 at 2020-01-12 20:14:34 +0300
+Processing by SessionController#sign_out as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:10:in `current_user'
+Redirected to http://localhost:3000/signin
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 836)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:14:34 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 297)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 4262)
+
+
+Started GET "/signin" for ::1 at 2020-01-12 20:14:37 +0300
+Processing by SessionController#new as HTML
+  Rendering session/new.html.erb within layouts/application
+  Rendered session/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 4234)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Destroy (151.6ms)[0m  [1m[31mDELETE FROM "users"[0m

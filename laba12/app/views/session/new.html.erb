@@ -1,0 +1,9 @@
+<p>Вход</p>
+<%= form_tag auth_path, :method => 'get' do %>
+<%= label_tag 'Логин' %>
+<%= text_field_tag :email %></br>
+<%= label_tag 'Пароль' %>
+<%= password_field_tag :pass %></br>
+<%= submit_tag 'Войти' %>
+<% end %> 
+<%= link_to 'Еще не с нами? Зарегестрируйтесь!', new_user_path %>
