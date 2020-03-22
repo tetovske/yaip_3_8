@@ -1266,3 +1266,155 @@ Completed 200 OK in 148ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 19
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (15.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (15.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (15.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (14.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+------------------------------------------
+--------------------------------------------
+-------------------------------------------
+NumberControllerTest: test_check_with_n_=_4
+NumberControllerTest: test_check_main_page
+NumberControllerTest: test_check_result_page
+NumberControllerTest: test_check_with_n_=_3
+-------------------------------------------
+------------------------------------------
+--------------------------------------------
+-------------------------------------------
+Started GET "/number/find" for 127.0.0.1 at 2020-01-13 18:49:15 +0300
+Started GET "/" for 127.0.0.1 at 2020-01-13 18:49:15 +0300
+Started GET "/number/find?n=3" for 127.0.0.1 at 2020-01-13 18:49:15 +0300
+Started GET "/number/find?n=4" for 127.0.0.1 at 2020-01-13 18:49:15 +0300
+Processing by NumberController#index as HTML
+Processing by NumberController#armstrong as HTML
+Processing by NumberController#armstrong as HTML
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+  Parameters: {"n"=>"4"}
+  Rendering number/index.html.erb within layouts/application
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 507)
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 14.0ms | Allocations: 434)
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 19.0ms | Allocations: 424)
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.9ms | Allocations: 432)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 863ms (Views: 736.8ms | ActiveRecord: 0.0ms | Allocations: 193049)
+Completed 200 OK in 863ms (Views: 851.9ms | ActiveRecord: 0.0ms | Allocations: 28345)
+Completed 200 OK in 863ms (Views: 856.9ms | ActiveRecord: 0.0ms | Allocations: 13064)
+Completed 200 OK in 863ms (Views: 857.1ms | ActiveRecord: 0.0ms | Allocations: 13066)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+SeleniumTest: test_check_response_with_n_=_0
+--------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+SeleniumTest: test_check_response_with_n_=_3
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+SeleniumTest: test_check_response_with_n_=_3
+--------------------------------------------
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------
+NumberControllerTest: test_check_main_page
+------------------------------------------
+-------------------------------------------
+NumberControllerTest: test_check_with_n_=_3
+-------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+SeleniumTest: test_check_response_with_n_=_0
+--------------------------------------------
+Started GET "/" for 127.0.0.1 at 2020-01-13 18:55:23 +0300
+Started GET "/number/find?n=3" for 127.0.0.1 at 2020-01-13 18:55:23 +0300
+Processing by NumberController#index as HTML
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"3"}
+  Rendering number/index.html.erb within layouts/application
+  Rendered number/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 507)
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 1.1ms | Allocations: 434)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 87ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 28475)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------
+NumberControllerTest: test_check_result_page
+--------------------------------------------
+Started GET "/number/find" for 127.0.0.1 at 2020-01-13 18:55:23 +0300
+Processing by NumberController#armstrong as HTML
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 54)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2264)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+NumberControllerTest: test_check_with_n_=_4
+-------------------------------------------
+Started GET "/number/find?n=4" for 127.0.0.1 at 2020-01-13 18:55:23 +0300
+Processing by NumberController#armstrong as HTML
+  Parameters: {"n"=>"4"}
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 113ms (Views: 106.9ms | ActiveRecord: 0.0ms | Allocations: 13191)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering number/armstrong.html.erb within layouts/application
+  Rendered number/armstrong.html.erb within layouts/application (Duration: 0.1ms | Allocations: 57)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 111ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 182273)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
