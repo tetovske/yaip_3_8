@@ -24,11 +24,13 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    @user = User.new(user_params)
-    @user.password = Digest::SHA256.hexdigest(@user.password)
-    
-    if @user.save
-      redirect_to @user, notice: 'Пользователь успешно создан!'
+    user_params
+    # @user = User.new(user_params)
+    # @user.password = Digest::SHA256.hexdigest(@user.password)
+
+    if @user = User.create_user(params[:user][:email], params[:user][:password])
+      redirect_to root_path
+      # redirect_to @user, notice: 'Пользователь успешно создан!'
     else
       render :new
     end
